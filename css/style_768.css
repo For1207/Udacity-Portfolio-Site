@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #2d3c49;
+  position: relative;
+  margin: 2%;
+}
+
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+  border-bottom: solid 0.4vw #1d5f5a69;
+}
+
+#cell_one {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 45%;
+  opacity: 0.55;
+}
+
+#cell_two {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-weight: 200;
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: #ff8000d9;
+}
+
+#cell_three {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-weight: 600;
+  font-size: 2.3vw;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+#almost {
+  font-size: 1.5vw;
+  font-style: italic;
+  color: #ff8000d9;
+  font-weight: 700;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#cell_four {
+  grid-column: 1/5;
+  grid-row: 1/9;
+}
+
+#cell_five {
+  grid-column: 2/5;
+  grid-row: 2/3;
+  z-index: 1;
+  font-size: 3vw;
+  font-weight: 600;
+  text-align: center;
+  border: solid 0.4vw #2d3c49;
+  margin: 0 15% 4% 40%;
+  padding: 3% 0%;
+  opacity: 0.85;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3%;
+  grid-row-gap: 0.4%;
+  margin: 2% 0 3% 0;
+}
+
+#cell_six {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  font-size: 3.2vw;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+#cell_seven {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#cell_eight {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+#cell_nine {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+#cell_ten {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+#cell_eleven {
+  grid-column: 2/3;
+  grid-row: 4/6;
+}
+
+#cell_twelve {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+#cell_thirteen {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+#cell_fourteen {
+  grid-column: 2/3;
+  grid-row: 6/8;
+}
+
+#cell_fifteen {
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+
+#cell_two, #cell_three, #cell_seven, #cell_ten, #cell_thirteen {
+  text-align: right;
+}
+
+#cell_seven, #cell_ten, #cell_thirteen {
+  width: 15vw;
+  height: 3.7vw;
+  font-size: 2.7vw;
+  font-weight: 400;
+  text-align: center;
+  color: #ff8000d9;
+  margin-left: 58%;
+  opacity: 0.9;
+  border: solid 0.45vw #ff8000d9;
+}
+
+.footer > p {
+  font-size: 2.75vw;
+  border-left: solid 0.3vw #1d5f5a69;
+  padding-left: 4%;
+}
+
+.author {
+  font-size: 2.3vw;
+  font-weight: 600;
+  font-style: italic;
+  float: right;
+  opacity: 0.85;
+}
